@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CaesarCipher.cs" />
+    <Compile Include="Мусор3.cs" />
     <Compile Include="Мусор2.cs" />
     <Compile Include="Мусор.cs" />
     <Compile Include="ICipher.cs" />

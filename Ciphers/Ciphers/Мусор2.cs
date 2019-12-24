@@ -1,14 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Ciphers
 {
     public class CaesarCipher2 /*: ICipher*/
     {
-        //UNDONE Не реализована проверка с буквами Ё и ё при сдвиге букв. Также попробовать способ со словарями и сравнить их скорость относительно друг друга. Выбрать тот, который окажется более быстрым
         static List<char> cirilAlphabetUpper = new List<char>();
         static List<char> cirilAlphabetLower = new List<char>();
         static CaesarCipher2()//сработает только при первом создании объекта класса или при первом обращении к статическим членам класса
