@@ -33,6 +33,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,9 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CaesarCipher.cs" />
-    <Compile Include="Мусор3.cs" />
-    <Compile Include="Мусор2.cs" />
-    <Compile Include="Мусор.cs" />
     <Compile Include="ICipher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
